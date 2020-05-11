@@ -38,4 +38,9 @@ body {
     display: grid;
     // 80vh for the header and 40vw for the stories
     grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+    // starting from centre, 8 columns for the features that are 14rem wide minimum,
+    // Moving to side bar, this is always 8rem wide,
+    // Then between the side bar and the main content, adding 1fr space to break out of the
+    // 8col grid a used by the features.
+    grid-template-columns: 8rem 1fr repeat(8, minmax(min-content, 14rem)) 1fr;
 }
