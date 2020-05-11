@@ -64,7 +64,7 @@ body {
 
 .story__content {
   background-color: #f9f7f6;
-  grid-column: col-end 5 / full-end;
+  grid-column: col-end 4 / full-end;
 }
 
 .homes {
