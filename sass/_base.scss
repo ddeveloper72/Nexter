@@ -40,9 +40,9 @@ body {
     grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
     // starting from centre, 8 columns for the features that are 14rem wide minimum,
     // Moving to side bar, this is always 8rem wide,
-    // Then between the side bar and the main content, adding 1fr space to break out of the
+    // Then between the side bar and the main content, adding 1fr (min 60px) space to break out of the
     // 8col grid a used by the features.
-    grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end];
+    grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 
     // construction styles
     & > * {
