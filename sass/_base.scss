@@ -42,5 +42,5 @@ body {
     // Moving to side bar, this is always 8rem wide,
     // Then between the side bar and the main content, adding 1fr space to break out of the
     // 8col grid a used by the features.
-    grid-template-columns: 8rem 1fr repeat(8, minmax(min-content, 14rem)) 1fr;
+    grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end];
 }
