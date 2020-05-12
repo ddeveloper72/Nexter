@@ -2,7 +2,21 @@
     &__pictures {
         background-color: $color-primary;
         grid-column: full-start / col-end 4;
+
+        display: grid;
+
     }
+
+    &__ing--1 {
+
+
+    }
+    
+    &__ing--2 {
+
+
+    }
+
     &__content {
         background-color: $color-grey-light-1;
         grid-column: col-start 5 / full-end;
