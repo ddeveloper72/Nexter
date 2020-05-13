@@ -237,6 +237,15 @@ body {
   grid-column: 1 / -1;
 }
 
+.home__like {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+}
+
 .home__name {
   grid-column: 1 / -1;
 }
@@ -247,7 +256,7 @@ body {
   width: 2rem;
 }
 
-.home__location__btn, .home__rooms__btn, .home__area__btn, .home__price__btn {
+.home__btn {
   grid-column: 1 / -1;
 }
 
