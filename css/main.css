@@ -237,10 +237,18 @@ body {
   grid-column: 1 / -1;
 }
 
+.home__name {
+  grid-column: 1 / -1;
+}
+
 .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
   fill: #c69963;
   height: 2rem;
   width: 2rem;
+}
+
+.home__location__btn, .home__rooms__btn, .home__area__btn, .home__price__btn {
+  grid-column: 1 / -1;
 }
 
 .gallery {
