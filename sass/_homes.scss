@@ -10,4 +10,34 @@
 .home {
     background-color: $color-grey-light-1;
 
+    &__ing {
+        width: 100%;
+    }
+
+    &__like {
+
+
+    }
+
+    &__name {
+
+
+    }
+
+    &__location,
+    &__rooms,
+    &__area,
+    &__price {
+
+        svg {
+
+
+        }
+
+        p {
+
+            
+        }
+    }
+
 }
