@@ -3,6 +3,7 @@
     margin: 15rem 0;
 
     display: grid;
+    // defined a dynamic column size
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 7rem;
 }
@@ -14,30 +15,36 @@
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 3.5rem;
 
-    &__ing {
+    &__img {
         width: 100%;
+        // defined row location for img grid element
         grid-row: 1 / 2;
         grid-column: 1 / -1;
         z-index: 1;
     }
 
     &__like {
+        // define row position of svg grid element
         grid-row: 1 / 2;
         grid-column: 2 / 3;
         fill: $color-primary;
         height: 2.5rem;
         width: 2.5rem;
         z-index: 2;
+        // position svg icon to end of grid element
         justify-self: end;
         margin: 1rem;
 
     }
 
     &__name {
+
+        // move the name grid item to the top row
         grid-row: 1 / 2;
         grid-column: 1 / -1;
+
         z-index: 3;
-        
+        // reduce the width of the name grid element
         width: 80%;
         justify-self: center;
         align-self: end;
@@ -49,6 +56,7 @@
         background-color: $color-secondary;
         color: #fff;
         font-weight: 400;
+        // move the name grid element down half its height
         transform: translateY(50%);
 
     }
@@ -65,6 +73,7 @@
         font-size: 1.5rem;
         margin-left: 2rem;
 
+        // use flexbox to align the smaller items
         display: flex;
         align-items: center;
 
