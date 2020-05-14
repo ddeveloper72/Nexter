@@ -37,6 +37,17 @@
             grid-column: 1 / span 2;
         }
 
+        &--6 {
+            grid-row: 4 / span 2;
+            grid-column: 3 / 5;
+        }
+
+        &--7 {
+            grid-row: 4 / 5;
+            grid-column: 5 / 6;
+        }
+
+    
     }
 
     &__img {
