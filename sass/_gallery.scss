@@ -6,4 +6,8 @@
     grid-template-columns: repeat(8, 1fr);
     // use 5% of the view port width to maintain aspect ratio for screen size
     grid-template-rows: repeat(7, 5vw);
+
+    &__img {
+        width: 100%;
+    }
 }
