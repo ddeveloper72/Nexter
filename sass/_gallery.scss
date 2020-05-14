@@ -11,6 +11,11 @@
 
     &__item {
 
+        // specify grid location of figure items
+        &--1 {
+            grid-row: 1 / span 2;
+            grid-column: 1 / span 2;
+        }
 
     }
 
