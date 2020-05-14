@@ -47,6 +47,11 @@
             grid-column: 5 / 6;
         }
 
+        &--8 {
+            grid-row: 3 / span 2;
+            grid-column: 6 / span 2;
+        }
+
     
     }
 
