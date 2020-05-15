@@ -10,5 +10,18 @@
 
     display: grid;
     // use auto fit for unknown number of columns
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));   
+    
+    
+    &__link:link,
+    &__item:visited {
+        font-size: 1.4rem;
+        color: #fff;
+        text-decoration: none;
+        font-family: $font-display;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    
 }
