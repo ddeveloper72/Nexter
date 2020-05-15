@@ -12,4 +12,13 @@
     height: 2px;
     width: 4.5rem;
 
+    &::before,
+    &::after {
+        background-color: #fff;
+        height: 2px;
+        width: 4.5rem;
+        content: "";
+        display: block;
+
+    }
 }
