@@ -8,9 +8,11 @@
     border: none;
     border-radius: 0;
 
+    // crate small white rectangle
     background-color: #fff;
     height: 2px;
     width: 4.5rem;
+    margin-top: 4rem;
 
     &::before,
     &::after {
@@ -19,6 +21,13 @@
         width: 4.5rem;
         content: "";
         display: block;
+    }
 
+    &::before {
+        transform: translateY(-1.5rem);
+    }
+
+    &::after {
+        transform: translateY(1.5rem);
     }
 }
