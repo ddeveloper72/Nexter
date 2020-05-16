@@ -3,7 +3,9 @@
     grid-column: col-start 7 / full-end;
 
     &__list {
-
+        display: grid;
+        //img-min-content txt-max-content
+        grid-template-columns: min-content max-content;
 
     }
 
