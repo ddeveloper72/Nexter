@@ -6,6 +6,9 @@
         display: grid;
         //img-min-content txt-max-content
         grid-template-columns: min-content max-content;
+        grid-column-gap: 2rem;
+        //change spacing base on height changes
+        grid-row-gap: 5vh;
 
     }
 
@@ -17,7 +20,9 @@
     }
 
     &__sold {
-
+        text-transform: uppercase;
+        color: $color-grey-light-2;
+        margin-top: -3px;
 
     }
 }
