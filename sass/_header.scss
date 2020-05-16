@@ -33,7 +33,17 @@
     &__seenon-text {
         font-size: 1.6rem;
         color: $color-grey-dark-2;
-        
+        // create small grid for the text element
+        display: grid;
+
+        &::before,
+        &::after {
+            content: "";
+            height: 1px;
+            display: block;
+            // inherit current element color
+            background-color: currentColor;
+        }
     }
     
     &__seenon-logos {
