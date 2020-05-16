@@ -14,7 +14,8 @@
         display: grid;
         grid-template-rows: 1fr min-content 6rem 1fr;
         //specify column size to max-width of content
-        grid-template-columns: max-content;
+        // minmax: specify the col to fit the min-content as well as max-content
+        grid-template-columns: minmax(min-content, max-content);
         grid-row-gap: 1.5rem;
         // center content to column
         justify-content: center;
