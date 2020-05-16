@@ -60,6 +60,18 @@
             transform: translateY(-3px) rotate(180deg);
             height: 3px;
         }
+
+        @media only screen and (max-width: $bp-large) {
+            &::before {
+                height: 2px;
+            }
+
+
+            &::after {
+                height: 2px;
+            }
+        }
+
     }
 
     @media only screen and (max-width: $bp-large) {

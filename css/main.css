@@ -202,6 +202,15 @@ body {
 }
 
 @media only screen and (max-width: 62.5em) {
+  .nav-btn:hover::before {
+    height: 2px;
+  }
+  .nav-btn:hover::after {
+    height: 2px;
+  }
+}
+
+@media only screen and (max-width: 62.5em) {
   .nav-btn {
     margin-top: 0;
     margin-right: 3rem;
