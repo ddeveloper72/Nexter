@@ -206,6 +206,11 @@ body {
       justify-self: start;
 }
 
+.header__seenon-text {
+  font-size: 1.6rem;
+  color: #6D5D4B;
+}
+
 .header__seenon-logos {
   display: -ms-grid;
   display: grid;
@@ -217,6 +222,8 @@ body {
 
 .header__seenon-logos img {
   height: 2.5rem;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
 }
 
 .realtors {
