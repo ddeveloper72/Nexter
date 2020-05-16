@@ -57,6 +57,8 @@
         grid-template-columns: repeat(4, 1fr);
         grid-column-gap: 3rem;
         justify-items: center;
+        // keep item aligned on smaller screens
+        align-items: center;
         
         img {
             //permit height & width to reduce
