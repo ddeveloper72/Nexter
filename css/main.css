@@ -211,6 +211,13 @@ body {
   color: #6D5D4B;
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr max-content 1fr;
+      grid-template-columns: 1fr -webkit-max-content 1fr;
+      grid-template-columns: 1fr max-content 1fr;
+  grid-column-gap: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__seenon-text::before, .header__seenon-text::after {
