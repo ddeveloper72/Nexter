@@ -212,6 +212,7 @@ body {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 3rem;
+  justify-items: center;
 }
 
 .header__seenon-logos img {
