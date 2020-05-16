@@ -8,6 +8,10 @@
     align-content: center; 
     justify-content: center;
 
+    //define some spacing & center
+    grid-row-gap: 2rem;
+    justify-items: center;
+
     &__list {
         display: grid;
         //img-min-content txt-max-content
