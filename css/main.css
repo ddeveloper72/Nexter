@@ -247,6 +247,12 @@ body {
   grid-column: col-start 7 / full-end;
 }
 
+.realtors__img {
+  width: 7rem;
+  border-radius: 50%;
+  display: block;
+}
+
 .features {
   grid-column: center-start / center-end;
   margin: 15rem 0;
