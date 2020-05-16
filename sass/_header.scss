@@ -12,9 +12,10 @@
         padding-top: 4rem;
 
         display: grid;
-        grid-template-rows: 1fr min-content 6rem 1fr;
-        //specify column size to max-width of content
         // minmax: specify the col to fit the min-content as well as max-content
+        // note: min to max not max to min
+        grid-template-rows: 1fr min-content minmax(min-content, 6rem) 1fr;
+        //specify column size to max-width of content
         grid-template-columns: minmax(min-content, max-content);
         grid-row-gap: 1.5rem;
         // center content to column
