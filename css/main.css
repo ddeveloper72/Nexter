@@ -13,6 +13,12 @@ html {
   font-size: 62.5%;
 }
 
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 50;
+  }
+}
+
 body {
   font-family: "Nunito", sans-serif;
   color: #6D5D4B;
@@ -29,6 +35,17 @@ body {
   -ms-grid-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] ([col-start] minmax(min-content, 14rem) [col-end])[8] [center-end] minmax(6rem, 1fr) [full-end];
       grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(-webkit-min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
       grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+}
+
+@media only screen and (max-width: 62.5em) {
+  .container {
+    -ms-grid-rows: 6rem 80vh min-content 40vw (min-content)[3];
+        grid-template-rows: 6rem 80vh -webkit-min-content 40vw repeat(3, -webkit-min-content);
+        grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
+    -ms-grid-columns: [full-start] minmax(6rem, 1fr) [center-start] ([col-start] minmax(min-content, 14rem) [col-end])[8] [center-end] minmax(6rem, 1fr) [full-end];
+        grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(-webkit-min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+        grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+  }
 }
 
 .heading-1, .heading-2, .heading-3, .heading-4 {
@@ -120,6 +137,21 @@ body {
           justify-content: center;
 }
 
+@media only screen and (max-width: 62.5em) {
+  .sidebar {
+    grid-column: 1 / -1;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .nav-btn {
   border: none;
   border-radius: 0;
@@ -167,6 +199,13 @@ body {
   -webkit-transform: translateY(-3px) rotate(180deg);
           transform: translateY(-3px) rotate(180deg);
   height: 3px;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .nav-btn {
+    margin-top: 0;
+    margin-right: 3rem;
+  }
 }
 
 .header {
