@@ -70,7 +70,7 @@ Below is a visual representation of the above.  The page is made up of 12 column
 <table>
 <thead>
             <tr>
-                <th colspan="2">Grid Names</th>
+                <th colspan="13">Grid Names</th>
             </tr>
 <thead>
 <tbody>
