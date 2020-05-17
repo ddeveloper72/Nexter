@@ -67,7 +67,6 @@ container {
 
 Below is a visual representation of the above.  The page is made up of 12 columns, 4 explicit rows and 2 implicit rows, the latter resizing automatically based on their content.
 
-| sidebar-start  | sidebar-end full-start | center-start                            | center-end                  | full-end  |
 
 |   |   |   |   |   |   |   |   |   |   |   |   |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|---|
