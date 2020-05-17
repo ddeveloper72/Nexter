@@ -65,22 +65,146 @@ container {
 
 ````
 
-Below is a visual representation of the above.  The page is made up of 12 columns, 4 explicit rows and 2 implicit rows, the latter resizing automatically based on their content.
+Below is a visual representation of the above.  The page is made up of 12 columns; 4 explicit rows and 2 implicit rows, the latter resize automatically based on their content.
 
-Column names:
-
-| sidebar-start  | sidebar-end full-start | center-start                            | center-end                  | full-end  |
-|   |   |   |   |   |   |   |   |   |   |   |   |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|---|
-|   | -  |   |   |   |   | minmax  |   |   |   |   |   |   |
-|   | 8rem  | 6rem, 1fr  | min-content, 14rem  | min-content, 14rem  | min-content, 14rem  | min-content, 14rem  | min-content, 14rem  | min-content, 14rem  | min-content, 14rem  | min-content, 14rem  | min-content, 14rem | 6rem, 1fr |
-| ROW  | col-1  | col-2 | col-3 | col-4   | col-5   | col-6 |  col-7  | col-8  | col-9 |  col-10  | col-11  | col-12  |
-| 80vh min-content  | sidebar | - | header  | header | header | header | header  | -  | realtor  | realtor | realtor  | -  |
-| 40vw min-content  | sidebar | -  | features  | features | features  | features  | features  | features  | features | features  | features  | -  |
-| 40vw min-content   | sidebar | - | story pic  | story pic | story pic  | story pic  | story | story  | story  | story  | story  | -  |
-| 40vw min-content   | sidebar | -  | homes  | homes  | homes  | homes  | homes  | homes  | homes  | homes  | homes | -  |
-|  implicit row | sidebar | -  | gallery  | gallery  | gallery  | gallery  | gallery  | gallery  | gallery  | gallery  | gallery  | -  |
-| implicit row | sidebar | -  | footer  | footer  | footer  | footer  | footer  | footer  | footer  | footer  | footer  | -  |
+<table>
+<thead>
+            <tr>
+                <th colspan="2">Grid Names</th>
+            </tr>
+<thead>
+<tbody>
+        <tr>
+            <td>Row</td>
+            <td>sidebar-start</td>
+            <td>sidebar-end | full-start</td>
+            <td colspan="4">center-start | col-start</td>
+            <td colspan="4">col-end </td>
+            <td>center-end</td>
+            <td>full-end</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>8rem</td>
+            <td>6rem, 1fr</td>
+            <td>min-content, 14rem</td>
+            <td>min-content, 14rem</td>
+            <td>min-content, 14rem</td>
+            <td>min-content, 14rem</td>
+            <td>min-content, 14rem</td>
+            <td>min-content, 14rem</td>
+            <td>min-content, 14rem</td>
+            <td>min-content, 14rem</td>
+            <td>min-content, 14rem</td>
+            <td>6rem, 1fr</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>col-1</td>
+            <td>col-2</td>
+            <td>col-3</td>
+            <td>col-4</td>
+            <td>col-5</td>
+            <td>col-6</td>
+            <td>col-7</td>
+            <td>col-8</td>
+            <td>col-9</td>
+            <td>col-10</td>
+            <td>col-11</td>
+            <td>col-12</td>
+        </tr>
+        <tr>
+            <td>80vh min-content</td>
+            <td>sidebar</td>
+            <td> - </td>
+            <td>header</td>
+            <td>header</td>
+            <td>header</td>
+            <td>header</td>
+            <td>header</td>
+            <td>header</td>
+            <td>realtor</td>
+            <td>realtor</td>
+            <td>realtor</td>
+            <td> - </td>
+        </tr>
+        <tr>
+            <td>40vw min-content</td>
+            <td>sidebar</td>
+            <td> - </td>
+            <td>feature</td>
+            <td>feature</td>
+            <td>feature</td>
+            <td>feature</td>
+            <td>feature</td>
+            <td>feature</td>
+            <td>feature</td>
+            <td>feature</td>
+            <td>feature</td>
+            <td> - </td>
+        </tr>
+        <tr>
+            <td>40vw min-content</td>
+            <td>sidebar</td>
+            <td> - </td>
+            <td>story pic</td>
+            <td>story pic</td>
+            <td>story pic</td>
+            <td>story pic</td>
+            <td>story txt</td>
+            <td>story txt</td>
+            <td>story txt</td>
+            <td>story txt</td>
+            <td>story txt</td>
+            <td> - </td>
+        </tr>
+        <tr>
+            <td>40vw min-content</td>
+            <td>sidebar</td>
+            <td> - </td>
+            <td>homes</td>
+            <td>homes</td>
+            <td>homes</td>
+            <td>homes</td>
+            <td>homes</td>
+            <td>homes</td>
+            <td>homes</td>
+            <td>homes</td>
+            <td>homes</td>
+            <td> - </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>sidebar</td>
+            <td> - </td>
+            <td>gallery</td>
+            <td>gallery</td>
+            <td>gallery</td>
+            <td>gallery</td>
+            <td>gallery</td>
+            <td>gallery</td>
+            <td>gallery</td>
+            <td>gallery</td>
+            <td>gallery</td>
+            <td> - </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>sidebar</td>
+            <td> - </td>
+            <td>footer</td>
+            <td>footer</td>
+            <td>footer</td>
+            <td>footer</td>
+            <td>footer</td>
+            <td>footer</td>
+            <td>footer</td>
+            <td>footer</td>
+            <td>footer</td>
+            <td> - </td>
+        </tr>
+<tbody>
+</table>
 
 ## Demonstration of the features CSS grid mark-up
 
