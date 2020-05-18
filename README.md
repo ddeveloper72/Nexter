@@ -68,64 +68,61 @@ container {
 Below is a visual representation of the above.  The page is made up of 12 columns; 4 explicit rows and 2 implicit rows, the latter resize automatically based on their content.
 
 <table>
-            <thead>
-                <tr>
-                    <thc colspan="2">Grid Names</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td>[sidebar-start]</td>
-                    <td>[sidebar-end full-start]</td>
-                    <td colspan="8">[center-start col-start]</td>
-                    <td colspan="2">[col-end center-end]</td>                
-                    <td>[full-end]</td>
-                </tr>
-                <tr>
-                    <td>Col/Row Size</td>
-                    <td>8rem</td>
-                    <td>6rem, 1fr</td>
-                    <td colspan="10">Each column width is min-content, 14rem</td>
-                    <td>6rem, 1fr</td>
-                </tr>
-                <tr>
-                    <td>80vh min-content</td>
-                    <td>sidebar</td>
-                    <td colspan="9">header</td>
-                    <td colspan=3>realtor</td>
-                </tr>
-                <tr>
-                    <td>40vw min-content</td>
-                    <td>sidebar</td>
-                    <td colspan="12">feature</td>
-                </tr>
-                <tr>
-                    <td>40vw min-content</td>
-                    <td>sidebar</td>
-                    <td colspan="6">story pic</td>
-                    <td colspan="6">story txt</td>
-                </tr>
-                <tr>
-                    <td>40vw min-content</td>
-                    <td>sidebar</td>
-                    <td colspan="12">homes</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>sidebar</td>
-                    <td colspan="12">gallery</td>
-                    
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>sidebar</td>
-                    <td colspan="12">footer</td>
-                </tr>
-
-            </tbody>
-
-        </table>
+<thead>
+    <tr>
+        <thc colspan="2">Grid Names</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td></td>
+        <td>[sidebar-start]</td>
+        <td>[sidebar-end full-start]</td>
+        <td colspan="8">[center-start col-start]</td>
+        <td colspan="2">[col-end center-end]</td>                
+        <td>[full-end]</td>
+    </tr>
+    <tr>
+        <td>Col/Row Size</td>
+        <td>8rem</td>
+        <td>6rem, 1fr</td>
+        <td colspan="10">Each column width is min-content, 14rem</td>
+        <td>6rem, 1fr</td>
+    </tr>
+    <tr>
+        <td>80vh min-content</td>
+        <td>sidebar</td>
+        <td colspan="9">header</td>
+        <td colspan=3>realtor</td>
+    </tr>
+    <tr>
+        <td>40vw min-content</td>
+        <td>sidebar</td>
+        <td colspan="12">feature</td>
+    </tr>
+    <tr>
+        <td>40vw min-content</td>
+        <td>sidebar</td>
+        <td colspan="6">story pic</td>
+        <td colspan="6">story txt</td>
+    </tr>
+    <tr>
+        <td>40vw min-content</td>
+        <td>sidebar</td>
+        <td colspan="12">homes</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>sidebar</td>
+        <td colspan="12">gallery</td>        
+    </tr>
+    <tr>
+        <td></td>
+        <td>sidebar</td>
+        <td colspan="12">footer</td>
+    </tr>
+</tbod>
+</table>
 
 ## Demonstration of the features CSS grid mark-up
 
