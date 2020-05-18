@@ -1,3 +1,5 @@
+<link href="css/markdown.css" rel="stylesheet"></link>
+
 # Advanced CSS tutorial
 
 ## [Nexter](https://ddeveloper72.github.io/Nexter/)
@@ -70,7 +72,7 @@ Below is a visual representation of the above.  The page is made up of 12 column
 <table>
 <thead>
     <tr>
-        <thc colspan="2">Grid Names</th>
+        <thc colspan="12">Grid Names</th>
     </tr>
 </thead>
 <tbody>
