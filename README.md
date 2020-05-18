@@ -1,4 +1,4 @@
-<link href="css/markdown.css" rel="stylesheet"></link>
+<link href="https://github.com/ddeveloper72/Nexter/blob/master/css/markdown.css" rel="stylesheet"></link>
 
 # Advanced CSS tutorial
 
