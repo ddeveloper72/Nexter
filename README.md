@@ -1,5 +1,3 @@
-<link href="https://github.com/ddeveloper72/Nexter/blob/master/css/markdown.css"rel="stylesheet"></link>
-
 # Advanced CSS tutorial
 
 ## [Nexter](https://ddeveloper72.github.io/Nexter/)
@@ -91,34 +89,34 @@ Below is a visual representation of the above.  The page is made up of 12 column
         <td colspan="10">Each column width is min-content, 14rem</td>
         <td>6rem, 1fr</td>
     </tr>
-    <tr>
+    <tr style="text-align:center">
         <td>80vh min-content</td>
         <td>sidebar</td>
         <td colspan="9">header</td>
         <td colspan=3>realtor</td>
     </tr>
-    <tr>
+    <tr style="text-align:center">
         <td>40vw min-content</td>
         <td>sidebar</td>
         <td colspan="12">feature</td>
     </tr>
-    <tr>
+    <tr style="text-align:center">
         <td>40vw min-content</td>
         <td>sidebar</td>
         <td colspan="6">story pic</td>
         <td colspan="6">story txt</td>
     </tr>
-    <tr>
+    <tr style="text-align:center">
         <td>40vw min-content</td>
         <td>sidebar</td>
         <td colspan="12">homes</td>
     </tr>
-    <tr>
+    <tr style="text-align:center">
         <td></td>
         <td>sidebar</td>
         <td colspan="12">gallery</td>        
     </tr>
-    <tr>
+    <tr style="text-align:center">
         <td></td>
         <td>sidebar</td>
         <td colspan="12">footer</td>
