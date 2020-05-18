@@ -74,52 +74,52 @@ Below is a visual representation of the above.  The page is made up of 12 column
     </tr>
 </thead>
 <tbody>
-    <tr>
-        <td></td>
-        <td>[sidebar-start]</td>
-        <td>[sidebar-end full-start]</td>
+    <tr  style="border: 1px solid #ccc">
+        <td style="border: 1px solid #ccc"></td>
+        <td style="border: 1px solid #ccc">[sidebar-start]</td>
+        <td style="border: 1px solid #ccc">[sidebar-end full-start]</td>
         <td colspan="8">[center-start col-start]</td>
         <td colspan="2">[col-end center-end]</td>                
-        <td>[full-end]</td>
+        <td style="border: 1px solid #ccc">[full-end]</td>
     </tr>
-    <tr>
-        <td>Col/Row Size</td>
-        <td>8rem</td>
-        <td>6rem, 1fr</td>
-        <td colspan="10">Each column width is min-content, 14rem</td>
-        <td>6rem, 1fr</td>
+    <tr style="border: 1px solid #ccc">
+        <td style="border: 1px solid #ccc">Col/Row Size</td>
+        <td style="border: 1px solid #ccc">8rem</td>
+        <td style="border: 1px solid #ccc" style="text-align:center">6rem, 1fr</td>
+        <td colspan="10" style="border: 1px solid #ccc" style="text-align:center">Each column width is min-content, 14rem</td>
+        <td style="border: 1px solid #ccc">6rem, 1fr</td>
     </tr>
-    <tr style="text-align:center">
-        <td>80vh min-content</td>
-        <td>sidebar</td>
-        <td colspan="9">header</td>
-        <td colspan=3>realtor</td>
+    <tr style="border: 1px solid #ccc">
+        <td style="border: 1px solid #ccc">80vh min-content</td>
+        <td style="border: 1px solid #ccc">sidebar</td>
+        <td colspan="9" style="text-align:center">header</td>
+        <td colspan=3 style="text-align:center">realtor</td>
     </tr>
-    <tr style="text-align:center">
-        <td>40vw min-content</td>
-        <td>sidebar</td>
-        <td colspan="12">feature</td>
+    <tr style="border: 1px solid #ccc">
+        <td style="border: 1px solid #ccc">40vw min-content</td>
+        <td style="border: 1px solid #ccc">sidebar</td>
+        <td colspan="12" style="text-align:center">feature</td>
     </tr>
-    <tr style="text-align:center">
-        <td>40vw min-content</td>
-        <td>sidebar</td>
-        <td colspan="6">story pic</td>
-        <td colspan="6">story txt</td>
+    <tr style="border: 1px solid #ccc">
+        <td style="border: 1px solid #ccc">40vw min-content</td>
+        <td style="border: 1px solid #ccc">sidebar</td>
+        <td colspan="6" style="text-align:center">story pic</td>
+        <td colspan="6" style="text-align:center">story txt</td>
     </tr>
-    <tr style="text-align:center">
-        <td>40vw min-content</td>
-        <td>sidebar</td>
-        <td colspan="12">homes</td>
+    <tr style="border: 1px solid #ccc">
+        <td style="border: 1px solid #ccc">40vw min-content</td>
+        <td style="border: 1px solid #ccc">sidebar</td>
+        <td colspan="12" style="text-align:center">homes</td>
     </tr>
-    <tr style="text-align:center">
-        <td></td>
-        <td>sidebar</td>
-        <td colspan="12">gallery</td>        
+    <tr style="border: 1px solid #ccc">
+        <td style="border: 1px solid #ccc"></td>
+        <td style="border: 1px solid #ccc">sidebar</td>
+        <td colspan="12" style="text-align:center">gallery</td>        
     </tr>
-    <tr style="text-align:center">
-        <td></td>
-        <td>sidebar</td>
-        <td colspan="12">footer</td>
+    <tr style="border: 1px solid #ccc">
+        <td style="border: 1px solid #ccc"></td>
+        <td style="border: 1px solid #ccc">sidebar</td>
+        <td colspan="12" style="text-align:center">footer</td>
     </tr>
 </tbod>
 </table>
